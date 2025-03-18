@@ -6,7 +6,7 @@ import {
     deleteDoc,
     doc,
 } from "firebase/firestore";
-import { Product } from "../types/modelProduct";
+import { Product } from "../interface/models/Product";
 
 class ProductService {
     static async getAllProducts(): Promise<Product[]> {
